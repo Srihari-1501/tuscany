@@ -19,8 +19,6 @@ header{
     background-color: white;
 }
 
-
-
 .spOffImg{
     position: relative;
 }
@@ -31,6 +29,11 @@ header{
     align-items: end;
 }
 
+footer{
+    background-color: gray;
+    color: white;
+}
+
 
 @media (max-width : 445px) {
     .search{
@@ -38,5 +41,15 @@ header{
     }
     .navbar-toggler{
         margin-left: auto;
+    }
+    .bestCompany{
+        display: none;
+
+    }
+    .special_offers{
+        display: none;
+    }
+    .popularDes{
+        top: 5%;
     }
 }
